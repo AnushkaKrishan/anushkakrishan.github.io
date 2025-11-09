@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anushka Krishan</title>
+    <title>Anushka Krishan - Portfolio</title>
     <style>
       * {
         margin: 0;
@@ -166,6 +166,17 @@
         font-size: 1.1rem;
         margin-bottom: 1rem;
         line-height: 1.8;
+      }
+
+      .viewCode {
+        color: var(--accent);
+        text-decoration: none;
+        transition: ease 0.3s;
+        font-weight: 600;
+      }
+
+      .viewCode:hover {
+        color: #8cbbf0;
       }
 
       .roles {
@@ -376,12 +387,14 @@
 
       .contact-link {
         background: var(--accent);
-        color: white;
+        color: #1a1a1a;
         padding: 1rem 2rem;
         text-decoration: none;
         border-radius: 3px;
         transition: transform 0.3s, box-shadow 0.3s;
-        border: 2px solid white;
+        border: 2px solid #85b8f1;
+        font-weight: 600;
+        font-size: 1.25rem;
       }
 
       .contact-link:hover {
@@ -582,7 +595,11 @@
   <body>
     <nav>
       <div class="logo">anushka.dev</div>
-      <button class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle menu">
+      <button
+        class="menu-toggle"
+        onclick="toggleMenu()"
+        aria-label="Toggle menu"
+      >
         ☰
       </button>
       <ul class="nav-links" id="navLinks">
@@ -615,16 +632,28 @@
       <div class="file-cabinet">
         <div class="file-drawer">
           <div class="drawer-tab" onclick="toggleDrawer(this)">
-            <span>Pixio — Gen AI Video Editor</span>
+            <span
+              >Pixio - Gen AI Video Editor
+              <a
+                href="https://github.com/rishabh-2005/IITISoC-ML-05"
+                target="_blank"
+                class="viewCode"
+                >&lt;/&gt;</a
+              ></span
+            >
           </div>
           <div class="drawer-content">
             <div class="project-card">
               <div class="project-meta">
-                IITISoC 2025 | 🏆 1st Place | React, Node.js, FastAPI, FFmpeg, Remotion
+                IITISoC 2025 | 🏆 1st Place | React, Node.js, FastAPI, FFmpeg,
+                Remotion
               </div>
               <ul>
                 <li>Built the frontend in React and backend in Node.js</li>
-                <li>Added side-by-side video players using Remotion for comparison while editing</li>
+                <li>
+                  Added side-by-side video players using Remotion for comparison
+                  while editing
+                </li>
                 <li>
                   Integrated FFmpeg for server-side video editing and
                   downloading
@@ -644,7 +673,15 @@
 
         <div class="file-drawer">
           <div class="drawer-tab" onclick="toggleDrawer(this)">
-            <span>ThinkMail</span>
+            <span
+              >ThinkMail
+              <a
+                href="https://github.com/AnushkaKrishan/ThinkMail"
+                target="_blank"
+                class="viewCode"
+                >&lt;/&gt;</a
+              ></span
+            >
           </div>
           <div class="drawer-content">
             <div class="project-card">
@@ -670,12 +707,21 @@
 
         <div class="file-drawer">
           <div class="drawer-tab" onclick="toggleDrawer(this)">
-            <span>ShopHub — E-Commerce Platform</span>
+            <span
+              >ShopHub - E-Commerce Platform
+              <a
+                href="https://github.com/alayacruz/dbis"
+                target="_blank"
+                class="viewCode"
+                >&lt;/&gt;</a
+              ></span
+            >
           </div>
           <div class="drawer-content">
             <div class="project-card">
               <div class="project-meta">
-                React, Typescript, Node.js, Express, PostgreSQL, PayPal API, ElasticSearch
+                React, Typescript, Node.js, Express, PostgreSQL, PayPal API,
+                ElasticSearch
               </div>
               <ul>
                 <li>
@@ -703,7 +749,7 @@
       <div class="timeline">
         <div class="timeline-item">
           <h3>SIDDHI Internship (Charak Center)</h3>
-          <div class="timeline-date">IIT Indore | May 2025 – Jul 2025</div>
+          <div class="timeline-date">IIT Indore | May 2025 - Jul 2025</div>
           <ul>
             <li>
               Built the backend for an ICU AMR susceptibility prediction system
@@ -730,14 +776,14 @@
         <div class="timeline-item">
           <h3>Indian Institute of Technology, Indore</h3>
           <div class="timeline-date">
-            B.Tech. in Computer Science and Engineering | Jul 2024 – May 2028
+            B.Tech. in Computer Science and Engineering | Jul 2024 - May 2028
           </div>
         </div>
 
         <div class="timeline-item">
           <h3>Delhi Public School, Bangalore</h3>
           <div class="timeline-date">
-            Senior Secondary (CBSE) | Aug 2018 – May 2024
+            Senior Secondary (CBSE) | Aug 2018 - May 2024
           </div>
         </div>
       </div>
@@ -806,8 +852,14 @@
         <a href="mailto:anushkakrishan8107@gmail.com" class="contact-link"
           >Email</a
         >
-        <a href="https://github.com/AnushkaKrishan" class="contact-link">GitHub</a>
-        <a href="https://www.linkedin.com/in/anushka-krishan-65689331a/" class="contact-link">LinkedIn</a>
+        <a href="https://github.com/AnushkaKrishan" class="contact-link"
+          >GitHub</a
+        >
+        <a
+          href="https://www.linkedin.com/in/anushka-krishan-65689331a/"
+          class="contact-link"
+          >LinkedIn</a
+        >
       </div>
     </section>
 
